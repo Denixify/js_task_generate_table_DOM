@@ -354,7 +354,7 @@ const people = [
   },
 ];
 
-const tableOfPeople = document.querySelector('.dashboard');
+const tableOfPeople = document.querySelector('.dashboard tbody');
 
 people.forEach((person) => {
   const age = person.died - person.born;
